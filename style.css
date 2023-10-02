@@ -3,26 +3,139 @@
     margin: 0;
     padding: 0;       
 }
-img{
-    /*width: 112px;
-    height: 38px; 
-    margin: 16px;
-    padding: 10px;*/
+body{
+    border: solid red;
+    margin: 0px 0px;
+    background-color: ;
 }
+
+.conteudo{
+ border: solid black;
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
  
 
-header ul{
+}
+
+#logo{ 
+    border: solid red; 
+  margin-left: 30px;
+    
+   
+}
+
+.conteudo_cabecalho{
+    border: solid greenyellow;
+    display: flex;
+    margin: 20px 20px 20px 0px;
+  justify-content: left;
+   list-style-type: none;
+  
+}
+.conteudo_cabecalho1{
+    border: solid brown;
+    margin-left: 30px;
+    color: #a0b3d9;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+
+.conteudo_cabecalho_cadastrese{
+    justify-content: space-around;
+    margin-left: 500px;
+    color:#304f8c;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#button{
+    border-radius: 10px;
+    padding: 10px ;
+    margin-right: 100px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color:#304f8c ;
+    font-size: 20px;
+    margin-top: 10px;
+
+   
+}
+
+main{
+    border: solid greenyellow;
+    display: flex;
+    justify-content:space-between;
+
+   
+}
+.conteudo1_2{
+display:flex;
+
+flex-direction:column ;
+ border: solid rgb(233, 196, 196);
+ margin-left: 30px;
+ gap: 20px;
+}
+
+.conteudo1_texto{
+display:flex;
+margin: 10px;
+font-size: 40px;
+
+}
+
+.conteudo1_texto_paragrafo{
+    display:flex;
+    margin: 10px;
+    font-size: 15px;
+    flex-direction: column;
+   
+}
+
+.button2{
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 10px;
+    width: 300px;
+    background-color: #304f8c;
+    color: white;
+
+    
+}
+.conteudo1_2_logo2{
+    border: solid ;
+    display:flex;
+    justify-content: space-around;
+    width: 500px; 
+    height: 300px;
+    margin-right: 200px;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+/*header ul{
 display: flex;
 list-style: none;
 gap: 19px;
 padding: 19px 200px 0px 0px;
-justify-content: space-between;
+justify-content: space-between;*/
 
-}
-#titulo{
-display: flex;
-border: red;
-}
+
 
     
     
