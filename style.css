@@ -1,14 +1,25 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-=======
+
  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
->>>>>>> 336a460370f60ddd37851df17906ad3dd6671c0f
+
 
 *{
     margin: 0;
     padding: 0;
 
 }
+
+body{
+    
+}
+header{
+   
+}
+main{
+   
+}
+
 
 .cabecalho{
     display: flex;
@@ -55,7 +66,7 @@ button{
     margin-right: 110px;
 }
 .conteudo{
-    border: 0.5px solid red;
+    border: ;
    
 }
 .conteudo_principal{
@@ -257,13 +268,68 @@ gap: 100px;
 
 }
 
-.rodape{
-    display: flex;
-    flex-direction:row;
-    background-color: black;
-    color:white ;
+footer{
+display: flex;
+background-color: black;
+color:white ;
+margin-top: 100px;
 }
 
+h3{
+display: flex;
+margin-top: 40px;
+margin-left: 50px;
+gap: 30px;
+
+}
+
+.rodape_link_lista{
+    display: flex;
+    flex-direction:column;
+    margin-left: -73px;
+    gap: 30px ;
+    margin-top: 100px;
+    list-style: none;
+ 
+}
 .rodape_link{
-  
+    display: flex;
+    margin-left: 150px;
+    
+}
+.rodape_link_lista2{
+display: flex;
+margin-left: 25px;
+}
+
+.rodape_link1{
+display: flex;
+margin-left: 100px;
+}
+.rodape_link_lista3{
+    margin-left: 15px;
+}
+#rodape_link_lista1{
+display: flex;
+width: 250px;
+height: 40px;
+border-radius: 8px;
+border: none;
+margin-left: -190px;
+margin-top: 100px;
+padding: 0px 20px;
+}
+
+.logos{
+    display: flex;
+    margin-left: -285px;
+    gap: 10px;
+}
+
+.fim{
+display: flex;
+
+}
+.fim_1{
+   
 }
